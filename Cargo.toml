@@ -1,0 +1,13 @@
+[package]
+name = "lootscribe_slicer"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "lootscribe-slicer"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+anyhow = "1"
+arboard = "3"
